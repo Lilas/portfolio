@@ -1,12 +1,12 @@
 'use strict';
 
 angular
-	.module("portfolioApp", ['ngRoute', "ngKnob"])
+	.module("portfolioApp", ['ngRoute', "ngKnob", "ngIsActiveNav"])
 	.config(['$routeProvider', function($routeProvider) {
 	    $routeProvider.
 			when('/', {
 				templateUrl: 'partials/home.html',
-				controller: 'HomeController'
+				controller: 'HomeController',
 			}).
 			when('/resume', {
 				templateUrl: 'partials/resume.html',

@@ -1,3 +1,5 @@
+'use strict';
+
 angular
     .module('ngKnob', [])
     .directive('knob', ['$timeout', function($timeout) {
