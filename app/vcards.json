@@ -6,7 +6,7 @@
         "competences": [
             {
                 "name": "FRONT-END",
-                "class": "fa fa-comments web",
+                "class": "fa fa-html5 web",
                 "descriptions": [
                     "Intégration (HTML5 / CSS3).",
                     "Responsive design Javascript, jQuery, angularJS."
@@ -14,7 +14,7 @@
             },
             {
                 "name": "BACK-END",
-                "class": "fa fa-comments ui",
+                "class": "fa fa-cogs ui",
                 "descriptions": [
                     "Conception et déploiement.",
                     "Frameworks : (Django, Flask)."
@@ -22,7 +22,7 @@
             },
             {
                 "name": "EN BREF",
-                "class": "fa fa-comments app",
+                "class": "fa fa-user app",
                 "descriptions": [
                     "Je suis Développeuse Front-end/Back-end, passionnée du Web;"
                 ]
