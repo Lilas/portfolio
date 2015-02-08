@@ -16,9 +16,6 @@ angular
 				templateUrl: 'partials/skills.html',
 				controller: 'SkillController'
 			}).
-			when('/feedback', {
-				templateUrl: 'partials/feedback.html',
-			}).
 			otherwise({
 				redirectTo: '/'
 			});
