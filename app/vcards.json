@@ -154,7 +154,7 @@
                     "width": 50,
                     "height": 50, 
                     "readOnly" :true,
-                    "fgColor": "#e67e22",
+                    "fgColor": "#B9305B",
                     "thickness": ".2",
                     "displayInput": false
                 }
@@ -166,7 +166,7 @@
                     "width": 50,
                     "height": 50, 
                     "readOnly" :true,
-                    "fgColor": "#e67e22",
+                    "fgColor": "#e6c99b",
                     "thickness": ".2",
                     "displayInput": false
                 }
@@ -178,7 +178,7 @@
                     "width": 50,
                     "height": 50, 
                     "readOnly" :true,
-                    "fgColor": "#e67e22",
+                    "fgColor": "#BFE69B",
                     "thickness": ".2",
                     "displayInput": false
                 }
@@ -204,7 +204,7 @@
                     "width": 50,
                     "height": 50, 
                     "readOnly" :true,
-                    "fgColor": "#e67e22",
+                    "fgColor": "#0a7b83",
                     "thickness": ".2",
                     "displayInput": false
                 }
@@ -216,7 +216,7 @@
                     "width": 50,
                     "height": 50, 
                     "readOnly" :true,
-                    "fgColor": "#e67e22",
+                    "fgColor": "#2aa876",
                     "thickness": ".2",
                     "displayInput": false
                 }
@@ -228,7 +228,7 @@
                     "width": 50,
                     "height": 50, 
                     "readOnly" :true,
-                    "fgColor": "#e67e22",
+                    "fgColor": "#ffd265",
                     "thickness": ".2",
                     "displayInput": false
                 }
@@ -240,7 +240,7 @@
                     "width": 50,
                     "height": 50, 
                     "readOnly" :true,
-                    "fgColor": "#e67e22",
+                    "fgColor": "#f19c65",
                     "thickness": ".2",
                     "displayInput": false
                 }
@@ -252,7 +252,7 @@
                     "width": 50,
                     "height": 50, 
                     "readOnly" :true,
-                    "fgColor": "#9bcc45",
+                    "fgColor": "#ce4d45",
                     "thickness": ".2",
                     "displayInput": false
                 }
@@ -272,13 +272,49 @@
         ],
         "autres": [
             {
-                "name": "Humour",
-                "data": "99",
+                "name": "Beyonce",
+                "data": "98",
                 "options": { 
                     "width": 50,
                     "height": 50, 
                     "readOnly" :true,
                     "fgColor": "#ff97b8",
+                    "thickness": ".2",
+                    "displayInput": false
+                }
+            },
+            {
+                "name": "Humour",
+                "data": "97",
+                "options": { 
+                    "width": 50,
+                    "height": 50, 
+                    "readOnly" :true,
+                    "fgColor": "#ed002f",
+                    "thickness": ".2",
+                    "displayInput": false
+                }
+            },
+            {
+                "name": "Sneakers addict",
+                "data": "92",
+                "options": { 
+                    "width": 50,
+                    "height": 50, 
+                    "readOnly" :true,
+                    "fgColor": "#4790c1",
+                    "thickness": ".2",
+                    "displayInput": false
+                }
+            },
+            {
+                "name": "Gameuse",
+                "data": "86",
+                "options": { 
+                    "width": 50,
+                    "height": 50, 
+                    "readOnly" :true,
+                    "fgColor": "#FFD804",
                     "thickness": ".2",
                     "displayInput": false
                 }
