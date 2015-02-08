@@ -201,6 +201,9 @@
 	#contact-form {
 	    margin-bottom:20px;
 	}
+	.text-center{
+		text-align: center;
+	}
 
 
 /* 5. Wrapping */
@@ -1562,7 +1565,9 @@ blockquote.wide .corner {
 
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 	@media only screen and (max-width: 479px) {
-		
+		.skill {
+			width: 100% !important;
+		}
 		.bg-cover {
 			background-size: 100% 100%; 
 		}

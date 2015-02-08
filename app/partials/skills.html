@@ -1,0 +1,26 @@
+<!-- <div class="plain-content">
+	<div><h2>Skills</h2></div>
+	<div>
+		<div class="one-fourth text-center column-last" ng-repeat="skill in skills">
+			<h4><br><strong>{{skill.name}}</strong></h4>
+			<knob knob-data="skill.data" knob-options="skill.options"></knob>
+		</div>
+	</div>
+	<div class="clear dividewhite3"></div>
+</div> -->
+
+
+<div class="plain-content">
+	<div><h2>Skills</h2></div>
+	<div class="clear dividewhite3"></div>
+	<div>
+		<div class="one-fourth skill text-center column-last" ng-repeat="skill in skills">
+			<div>
+				<br>
+				<h4><strong>{{skill.name}}</strong></h4>
+				<knob knob-data="skill.data" knob-options="skill.options"></knob>
+			</div>
+		</div>
+	</div>
+	<div class="clear dividewhite3"></div>
+</div>

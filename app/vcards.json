@@ -1,0 +1,175 @@
+{
+    "card": {
+        "name": "Lilas Merbouche",
+        "job": "Développeuse web",
+        "number": " +33 6 27 47 53 89"
+    },
+    "services": {},
+    "socials": {},
+    "jobs": [
+        {
+            "dateStart": "Février 2013",
+            "dateEnd": "Aujourd'hui",
+            "name": "Online SAS (Groupe ILIAD)",
+            "poste": "Développeuse",
+            "missions": [
+                {
+                    "description": "Intégration et administration des sites web."
+                },
+                {
+                    "description": "Développement d'un back-end pour la surveillance des équipements des Datacenter du groupe ILIAD (consommation, température de l'infrastructure…)"
+                },
+                {
+                    "description": "Administration système."
+                }
+            ]
+        },
+        {
+            "dateStart": "Juin 2014",
+            "dateEnd": "Juillet 2014",
+            "name": "CitySpa",
+            "poste": "Développeuse Web",
+            "missions": [
+                {
+                    "description": "Conception et réalisation du site."
+                }
+            ]
+        },
+        {
+            "dateStart": "Avril 2014",
+            "dateEnd": "Juin 2014",
+            "name": "Sylab Game",
+            "poste": "Développeuse App Windows 8",
+            "missions": [
+                {
+                    "description": "Application Windows 8 réalisé dans le cadre de ma formation à la web@cademie [concour Microsoft]"
+                }
+            ]
+        },
+        {
+            "dateStart": "Avril 2013",
+            "dateEnd": "Juin 2013",
+            "name": "Web@academie",
+            "poste": "Développeuse Web",
+            "missions": [
+                {
+                    "description": "Conception et réalisation du site."
+                }
+            ]
+        }
+    ],
+    "educations": [
+        {
+            "dateStart": "Février 2012",
+            "dateEnd": "Mars 2014",
+            "name": "Web@cademie",
+            "subname": "Epitech",
+            "description": "Cursus de formation spécialisée web à Epitech, création de divers projets utilisant des technologies web."
+        },
+        {
+            "dateStart": "Septembre 2011",
+            "dateEnd": "Janvier 2012",
+            "name": "BTS",
+            "subname": "Services Informatiques aux Organisations",
+            "description": "Formation sur deux ans, à la mise en place de solutions informatiques au sein des entreprises. Spécialité solutions logicielles et applications métiers."
+        }
+    ],
+    "skills": [
+    	{
+    		"name": "PHP/MySQL",
+    		"data": "80",
+    		"options": { 
+    			"width": 50,
+    			"height": 50, 
+    			"readOnly" :true,
+    			"fgColor": "#9b59b6",
+    			"thickness": ".2",
+    			"displayInput": false
+    		}
+    	},
+    	{
+    		"name": "JS",
+    		"data": "78",
+    		"options": { 
+    			"width": 50,
+    			"height": 50, 
+    			"readOnly" :true,
+    			"fgColor": "#1abc9c",
+    			"thickness": ".2",
+    			"displayInput": false
+    		}
+    	},
+    	{
+    		"name": "HTML/CSS",
+    		"data": "90",
+    		"options": { 
+    			"width": 50,
+    			"height": 50, 
+    			"readOnly" :true,
+    			"fgColor": "#e74c3c",
+    			"thickness": ".2",
+    			"displayInput": false
+    		}
+    	},
+    	{
+    		"name": "Python (Django)",
+    		"data": "85",
+    		"options": { 
+    			"width": 50,
+    			"height": 50, 
+    			"readOnly" :true,
+    			"fgColor": "#FFD804",
+    			"thickness": ".2",
+    			"displayInput": false
+    		}
+    	},
+    	{
+    		"name": "Ruby (RoR)",
+    		"data": "65",
+    		"options": { 
+    			"width": 50,
+    			"height": 50, 
+    			"readOnly" :true,
+    			"fgColor": "#e67e22",
+    			"thickness": ".2",
+    			"displayInput": false
+    		}
+    	},
+    	{
+    		"name": "Humour",
+    		"data": "99",
+    		"options": { 
+    			"width": 50,
+    			"height": 50, 
+    			"readOnly" :true,
+    			"fgColor": "#ff97b8",
+    			"thickness": ".2",
+    			"displayInput": false
+    		}
+    	},
+    	{
+    		"name": "LESS / SASS ",
+    		"data": "85",
+    		"options": { 
+    			"width": 50,
+    			"height": 50, 
+    			"readOnly" :true,
+    			"fgColor": "#9bcc45",
+    			"thickness": ".2",
+    			"displayInput": false
+    		}
+    	},
+    	{
+    		"name": ".NET",
+    		"data": "45",
+    		"options": { 
+    			"width": 50,
+    			"height": 50, 
+    			"readOnly" :true,
+    			"fgColor": "#e6c093",
+    			"thickness": ".2",
+    			"displayInput": false
+    		}
+    	}
+    ]
+}
