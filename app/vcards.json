@@ -2,7 +2,32 @@
     "card": {
         "name": "Lilas Merbouche",
         "job": "Développeuse web",
-        "number": " +33 6 27 47 53 89"
+        "number": " +33 6 27 47 53 89",
+        "competences": [
+            {
+                "name": "FRONT-END",
+                "class": "fa fa-comments web",
+                "descriptions": [
+                    "Intégration (HTML5 / CSS3).",
+                    "Responsive design Javascript, jQuery, angularJS."
+                ]
+            },
+            {
+                "name": "BACK-END",
+                "class": "fa fa-comments ui",
+                "descriptions": [
+                    "Conception et déploiement.",
+                    "Frameworks : (Django, Flask)."
+                ]
+            },
+            {
+                "name": "EN BREF",
+                "class": "fa fa-comments app",
+                "descriptions": [
+                    "Je suis Développeuse Front-end/Back-end, passionnée du Web;"
+                ]
+            }
+        ] 
     },
     "services": {},
     "socials": {},
@@ -13,15 +38,9 @@
             "name": "Online SAS (Groupe ILIAD)",
             "poste": "Développeuse",
             "missions": [
-                {
-                    "description": "Intégration et administration des sites web."
-                },
-                {
-                    "description": "Développement d'un back-end pour la surveillance des équipements des Datacenter du groupe ILIAD (consommation, température de l'infrastructure…)"
-                },
-                {
-                    "description": "Administration système."
-                }
+                "Intégration et administration des sites web.",
+                "Développement d'un back-end pour la surveillance des équipements des Datacenter du groupe ILIAD (consommation, température de l'infrastructure…)",
+                "Administration système."                
             ]
         },
         {
@@ -30,9 +49,7 @@
             "name": "CitySpa",
             "poste": "Développeuse Web",
             "missions": [
-                {
-                    "description": "Conception et réalisation du site."
-                }
+                 "Conception et réalisation du site."
             ]
         },
         {
@@ -41,9 +58,7 @@
             "name": "Sylab Game",
             "poste": "Développeuse App Windows 8",
             "missions": [
-                {
-                    "description": "Application Windows 8 réalisé dans le cadre de ma formation à la web@cademie [concour Microsoft]"
-                }
+                "Application Windows 8 réalisé dans le cadre de ma formation à la web@cademie [concour Microsoft]"
             ]
         },
         {
@@ -52,9 +67,7 @@
             "name": "Web@academie",
             "poste": "Développeuse Web",
             "missions": [
-                {
-                    "description": "Conception et réalisation du site."
-                }
+                "Conception et réalisation du site."
             ]
         }
     ],

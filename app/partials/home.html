@@ -1,5 +1,3 @@
-
-
 <div class="panel-container" style="overflow: hidden;">
 	<div id="home" class="">
 		<p class="blue">{{card.job}}</p>
@@ -10,46 +8,16 @@
 
 
 <div class="grey-content">
-	<div class="one-third">
+	<div class="one-third column-last" ng-repeat="competence in card.competences">
 		<div class="services">
 			<div class="servtitle">
-				<div class="servicon"><i class="fa fa-comments web"></i><h3>FRONT-END</h3></div>
+				<div class="servicon"><i ng-class="competence.class"></i><h3>{{competence.name}}</h3></div>
 			</div>
 			<div>
-				<p>
-					Intégration (HTML5 / CSS3). <br/>
-					Responsive design. <br/>
-					Javascript, jQuery, angularJS. <br/>
+				<p ng-repeat="description in competence.descriptions">
+					{{description}}
 				</p>
-				<a href="#"><span>Learn More <i class="icon-angle-right"></i></span></a>
 			</div>
 		</div>
-	</div>
-	<div class="one-third">
-		<div class="services">
-			<div class="servtitle">
-				<div class="servicon"><i class="fa fa-comments ui"></i><h3>BACK-END</h3></div>
-			</div>
-			<div>
-				<p>
-					Conception et déploiement. <br/>
-					Frameworks : (Django, Flask). <br/>
-				</p>
-				<a href="#"><span>Learn More <i class="icon-angle-right"></i></span></a>
-			</div>
-		</div>
-	</div>
-	<div class="one-third column-last">
-		<div class="services">
-			<div class="servtitle">
-				<div class="servicon"><i class="fa fa-comments app"></i><h3>Lorem Ipsum</h3></div>
-			</div>
-			<div>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac ante nec nunc hendrerit scelerisque. Integer sed ante suscipit, luctus enim et, commodo orci.
-				</p>
-				<a href="#"><span>Learn More <i class="icon-angle-right"></i></span></a>
-			</div>
-		</div>
-	</div>                  
+	</div>    
 </div>
