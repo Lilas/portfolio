@@ -16,9 +16,6 @@ angular
 				templateUrl: 'partials/skills.html',
 				controller: 'SkillController'
 			}).
-			when('/contacts', {
-				templateUrl: 'partials/contacts.html',
-			}).
 			when('/feedback', {
 				templateUrl: 'partials/feedback.html',
 			}).
