@@ -35,8 +35,9 @@
         {
             "dateStart": "Février 2013",
             "dateEnd": "Aujourd'hui",
+            "class": "",
             "name": "Online SAS (Groupe ILIAD)",
-            "poste": "Développeuse",
+            "subname": "Développeuse",
             "missions": [
                 "Intégration et administration des sites web.",
                 "Développement d'un back-end pour la surveillance des équipements des Datacenter du groupe ILIAD (consommation, température de l'infrastructure…)",
@@ -46,8 +47,9 @@
         {
             "dateStart": "Juin 2014",
             "dateEnd": "Juillet 2014",
+            "class": "",
             "name": "CitySpa",
-            "poste": "Développeuse Web",
+            "subname": "Développeuse Web",
             "missions": [
                  "Conception et réalisation du site."
             ]
@@ -55,8 +57,9 @@
         {
             "dateStart": "Avril 2014",
             "dateEnd": "Juin 2014",
+            "class": "",
             "name": "Sylab Game",
-            "poste": "Développeuse App Windows 8",
+            "subname": "Développeuse App Windows 8",
             "missions": [
                 "Application Windows 8 réalisé dans le cadre de ma formation à la web@cademie [concour Microsoft]"
             ]
@@ -64,8 +67,9 @@
         {
             "dateStart": "Avril 2013",
             "dateEnd": "Juin 2013",
+            "class": "",
             "name": "Web@academie",
-            "poste": "Développeuse Web",
+            "subname": "Développeuse Web",
             "missions": [
                 "Conception et réalisation du site."
             ]
@@ -75,114 +79,210 @@
         {
             "dateStart": "Février 2012",
             "dateEnd": "Mars 2014",
+            "class": "-f",
             "name": "Web@cademie",
             "subname": "Epitech",
-            "description": "Cursus de formation spécialisée web à Epitech, création de divers projets utilisant des technologies web."
+            "missions": [
+                "Cursus de formation spécialisée web à Epitech, création de divers projets utilisant des technologies web."
+            ]
         },
         {
             "dateStart": "Septembre 2011",
             "dateEnd": "Janvier 2012",
+            "class": "-f",
             "name": "BTS",
             "subname": "Services Informatiques aux Organisations",
-            "description": "Formation sur deux ans, à la mise en place de solutions informatiques au sein des entreprises. Spécialité solutions logicielles et applications métiers."
+            "missions": [
+                "Formation sur deux ans, à la mise en place de solutions informatiques au sein des entreprises. Spécialité solutions logicielles et applications métiers."
+            ]
         }
     ],
-    "skills": [
-    	{
-    		"name": "PHP/MySQL",
-    		"data": "80",
-    		"options": { 
-    			"width": 50,
-    			"height": 50, 
-    			"readOnly" :true,
-    			"fgColor": "#9b59b6",
-    			"thickness": ".2",
-    			"displayInput": false
-    		}
-    	},
-    	{
-    		"name": "JS",
-    		"data": "78",
-    		"options": { 
-    			"width": 50,
-    			"height": 50, 
-    			"readOnly" :true,
-    			"fgColor": "#1abc9c",
-    			"thickness": ".2",
-    			"displayInput": false
-    		}
-    	},
-    	{
-    		"name": "HTML/CSS",
-    		"data": "90",
-    		"options": { 
-    			"width": 50,
-    			"height": 50, 
-    			"readOnly" :true,
-    			"fgColor": "#e74c3c",
-    			"thickness": ".2",
-    			"displayInput": false
-    		}
-    	},
-    	{
-    		"name": "Python (Django)",
-    		"data": "85",
-    		"options": { 
-    			"width": 50,
-    			"height": 50, 
-    			"readOnly" :true,
-    			"fgColor": "#FFD804",
-    			"thickness": ".2",
-    			"displayInput": false
-    		}
-    	},
-    	{
-    		"name": "Ruby (RoR)",
-    		"data": "65",
-    		"options": { 
-    			"width": 50,
-    			"height": 50, 
-    			"readOnly" :true,
-    			"fgColor": "#e67e22",
-    			"thickness": ".2",
-    			"displayInput": false
-    		}
-    	},
-    	{
-    		"name": "Humour",
-    		"data": "99",
-    		"options": { 
-    			"width": 50,
-    			"height": 50, 
-    			"readOnly" :true,
-    			"fgColor": "#ff97b8",
-    			"thickness": ".2",
-    			"displayInput": false
-    		}
-    	},
-    	{
-    		"name": "LESS / SASS ",
-    		"data": "85",
-    		"options": { 
-    			"width": 50,
-    			"height": 50, 
-    			"readOnly" :true,
-    			"fgColor": "#9bcc45",
-    			"thickness": ".2",
-    			"displayInput": false
-    		}
-    	},
-    	{
-    		"name": ".NET",
-    		"data": "45",
-    		"options": { 
-    			"width": 50,
-    			"height": 50, 
-    			"readOnly" :true,
-    			"fgColor": "#e6c093",
-    			"thickness": ".2",
-    			"displayInput": false
-    		}
-    	}
-    ]
+    "skills": {
+    	"langages": [
+            {
+                "name": "HTML/CSS",
+                "data": "90",
+                "options": { 
+                    "width": 50,
+                    "height": 50, 
+                    "readOnly" :true,
+                    "fgColor": "#e74c3c",
+                    "thickness": ".2",
+                    "displayInput": false
+                }
+            },
+            {
+        		"name": "PHP/MySQL",
+        		"data": "80",
+        		"options": { 
+        			"width": 50,
+        			"height": 50, 
+        			"readOnly" :true,
+        			"fgColor": "#9b59b6",
+        			"thickness": ".2",
+        			"displayInput": false
+        		}
+        	},
+            {
+                "name": "JS",
+                "data": "78",
+                "options": { 
+                    "width": 50,
+                    "height": 50, 
+                    "readOnly" :true,
+                    "fgColor": "#1abc9c",
+                    "thickness": ".2",
+                    "displayInput": false
+                }
+            },
+            {
+                "name": "Python",
+                "data": "85",
+                "options": { 
+                    "width": 50,
+                    "height": 50, 
+                    "readOnly" :true,
+                    "fgColor": "#FFD804",
+                    "thickness": ".2",
+                    "displayInput": false
+                }
+            },
+            {
+                "name": "Ruby",
+                "data": "65",
+                "options": { 
+                    "width": 50,
+                    "height": 50, 
+                    "readOnly" :true,
+                    "fgColor": "#e67e22",
+                    "thickness": ".2",
+                    "displayInput": false
+                }
+            },
+            {
+                "name": "C",
+                "data": "42",
+                "options": { 
+                    "width": 50,
+                    "height": 50, 
+                    "readOnly" :true,
+                    "fgColor": "#e67e22",
+                    "thickness": ".2",
+                    "displayInput": false
+                }
+            },
+            {
+                "name": "C++",
+                "data": "45",
+                "options": { 
+                    "width": 50,
+                    "height": 50, 
+                    "readOnly" :true,
+                    "fgColor": "#e67e22",
+                    "thickness": ".2",
+                    "displayInput": false
+                }
+            },
+            {
+                "name": "C#",
+                "data": "52",
+                "options": { 
+                    "width": 50,
+                    "height": 50, 
+                    "readOnly" :true,
+                    "fgColor": "#e67e22",
+                    "thickness": ".2",
+                    "displayInput": false
+                }
+            }
+        ],
+        "framework": [
+            {
+                "name": "Django",
+                "data": "83",
+                "options": { 
+                    "width": 50,
+                    "height": 50, 
+                    "readOnly" :true,
+                    "fgColor": "#e67e22",
+                    "thickness": ".2",
+                    "displayInput": false
+                }
+            },
+            {
+                "name": "Flask",
+                "data": "79",
+                "options": { 
+                    "width": 50,
+                    "height": 50, 
+                    "readOnly" :true,
+                    "fgColor": "#e67e22",
+                    "thickness": ".2",
+                    "displayInput": false
+                }
+            },
+            {
+                "name": "CakePHP",
+                "data": "75",
+                "options": { 
+                    "width": 50,
+                    "height": 50, 
+                    "readOnly" :true,
+                    "fgColor": "#e67e22",
+                    "thickness": ".2",
+                    "displayInput": false
+                }
+            },
+            {
+                "name": "Ruby On Rails",
+                "data": "56",
+                "options": { 
+                    "width": 50,
+                    "height": 50, 
+                    "readOnly" :true,
+                    "fgColor": "#e67e22",
+                    "thickness": ".2",
+                    "displayInput": false
+                }
+            },
+            {
+                "name": "LESS / SASS ",
+                "data": "85",
+                "options": { 
+                    "width": 50,
+                    "height": 50, 
+                    "readOnly" :true,
+                    "fgColor": "#9bcc45",
+                    "thickness": ".2",
+                    "displayInput": false
+                }
+            },
+            {
+                "name": ".NET",
+                "data": "45",
+                "options": { 
+                    "width": 50,
+                    "height": 50, 
+                    "readOnly" :true,
+                    "fgColor": "#e6c093",
+                    "thickness": ".2",
+                    "displayInput": false
+                }
+            }
+        ],
+        "autres": [
+            {
+                "name": "Humour",
+                "data": "99",
+                "options": { 
+                    "width": 50,
+                    "height": 50, 
+                    "readOnly" :true,
+                    "fgColor": "#ff97b8",
+                    "thickness": ".2",
+                    "displayInput": false
+                }
+            }
+        ]
+    }
 }

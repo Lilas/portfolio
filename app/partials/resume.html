@@ -1,39 +1,9 @@
 <div class="plain-content">
 	<div><h2>Expériences</h2></div>
-	<div class="job" ng-repeat="job in jobs">
-		<div class="date">
-			<div class="datefrom">{{job.dateStart}}</div>
-			<div class="datetill">{{job.dateEnd}}</div>
-			<div class="trianglewrap"><div class="datetriangle"></div></div>
-		</div>
-		<div class="jobtitle">
-			<h3>{{job.name}}</h3>
-			<h4><strong>{{job.poste}}</strong></h4> 
-			<div class="jobdescription">
-				<p ng-repeat="mission in job.missions">
-					- {{mission}}
-				</p>
-			</div> 
-		</div>
-		<div class="clear dividewhite3"></div>
-	</div>
+	<jobs jobs-data="jobs"></jobs>
 </div>
 
 <div class="grey-content">
 	<div><h2>Formations</h2></div>
-	<div class="job" ng-repeat="education in educations">
-		<div class="date">
-			<div class="datefrom">{{education.dateStart}}</div>
-			<div class="datetill-f">{{education.dateEnd}}</div>
-			<div class="trianglewrap"><div class="datetriangle-f"></div></div>
-		</div>
-		<div class="jobtitle">
-			<h3>{{education.name}}</h3>
-			<h4><strong>{{education.subname}}</strong></h4> 
-			<div class="jobdescription">
-				<p>- {{education.description}}</p>
-			</div> 
-		</div>
-		<div class="clear dividewhite3"></div>
-	</div>
+	<jobs jobs-data="educations"></jobs>
 </div>

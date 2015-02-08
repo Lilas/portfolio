@@ -6,18 +6,4 @@
 	</div>   
 </div>
 
-
-<div class="grey-content">
-	<div class="one-third column-last" ng-repeat="competence in card.competences">
-		<div class="services">
-			<div class="servtitle">
-				<div class="servicon"><i ng-class="competence.class"></i><h3>{{competence.name}}</h3></div>
-			</div>
-			<div>
-				<p ng-repeat="description in competence.descriptions">
-					{{description}}
-				</p>
-			</div>
-		</div>
-	</div>    
-</div>
+<competences competences-data="card.competences"></competences>
