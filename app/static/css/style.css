@@ -573,6 +573,9 @@
 	.job {
 		padding-top: 30px;
 	}
+	.jobmore{
+        margin-left:15px;
+    }
 	.date {
 		display: inline;
 		float: left;

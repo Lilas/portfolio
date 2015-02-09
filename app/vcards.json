@@ -27,7 +27,7 @@
                     "Je suis Développeuse Front-end/Back-end, passionnée du Web;"
                 ]
             }
-        ] 
+        ]
     },
     "services": {},
     "socials": {},
@@ -39,9 +39,37 @@
             "name": "Online SAS (Groupe ILIAD)",
             "subname": "Développeuse",
             "missions": [
-                "Intégration et administration des sites web.",
-                "Développement d'un back-end pour la surveillance des équipements des Datacenter du groupe ILIAD (consommation, température de l'infrastructure…)",
-                "Administration système."                
+                {
+                    "description": "Intégration et administration du nouveau site http://www.online.net/",
+                    "more": [
+                        "Adaptation du site pour les mobiles (Responsive design)",
+                        "Amélioration de l’ergonomie",
+                        "Respect de la norme W3C",
+                        "Référencement naturel (SEO)",
+                        "Compatibilité avec les différents navigateurs",
+                        "i18n internationalisation",
+                        "Ajout de nouvelles fonctionnalités (commentaires, votes…)"
+                    ]
+                },
+                {
+                    "description": "Création et administration du dashboard public ( http://pue.online.net/ ) pour la visualisation en temps réel de la consommation des Datacenters.",
+                    "more": [
+                        "Basé sur Facebook PUE dashboard"
+                    ]
+                },
+                {
+                    "description": "Intégration et administration du nouveau site http://www.mxproxy.com/",
+                    "more": [
+                        "Déplacement du service MxProxy sur un autre serveur",
+                        "Mise en place de statistiques"
+                    ]
+                },
+                {
+                    "description": "Développement d'un back-end pour la surveillance des équipements des Datacenter du groupe ILIAD (consommation, température de l'infrastructure…)"
+                },
+                {
+                    "description": "Administration système."
+                }
             ]
         },
         {
@@ -51,7 +79,14 @@
             "name": "CitySpa",
             "subname": "Développeuse Web",
             "missions": [
-                 "Conception et réalisation du site."
+                {
+                    "description": "Conception et réalisation du site https://www.cityspa.fr/",
+                    "more": [
+                        "Adaptation du site pour les mobiles (Responsive design)",
+                        "Mise en place d’une interface de gestion",
+                        "Développement de l’outil de prise de rendez-vous"
+                    ]
+                }
             ]
         },
         {
@@ -61,7 +96,13 @@
             "name": "Sylab Game",
             "subname": "Développeuse App Windows 8",
             "missions": [
-                "Application Windows 8 réalisé dans le cadre de ma formation à la web@cademie [concour Microsoft]"
+                {
+                    "description": "Application réalisé de dans le cadre de ma formation à la web@cademie [concours Microsoft]",
+                    "more": [
+                        "http://sylab-game.com/ (http://www.rslnmag.fr/post/2014/04/22/Sylab-la-belle-histoire-derriere-le-jeu-qui-monte-sur-Windows-phone.aspx)",
+                        "Projet de groupe composer de 3 membres"
+                    ]
+                }
             ]
         },
         {
@@ -71,7 +112,13 @@
             "name": "Web@academie",
             "subname": "Développeuse Web",
             "missions": [
-                "Conception et réalisation du site."
+                {
+                    "description": "Conception et réalisation du site de la Web@cademie (http://www.webacademie.org/)",
+                    "more": [
+                        "Adaptation du site pour les mobiles (Responsive design)",
+                        "Mise en place d’une interface de gestion"
+                    ]
+                }
             ]
         }
     ],
@@ -83,7 +130,9 @@
             "name": "Web@cademie",
             "subname": "Epitech",
             "missions": [
-                "Cursus de formation spécialisée web à Epitech, création de divers projets utilisant des technologies web."
+                {
+                    "description": "Cursus de formation spécialisée web à Epitech, création de divers projets utilisant des technologies web."
+                }
             ]
         },
         {
@@ -93,18 +142,20 @@
             "name": "BTS",
             "subname": "Services Informatiques aux Organisations",
             "missions": [
-                "Formation sur deux ans, à la mise en place de solutions informatiques au sein des entreprises. Spécialité solutions logicielles et applications métiers."
+                {
+                    "description": "Formation sur deux ans, à la mise en place de solutions informatiques au sein des entreprises. Spécialité solutions logicielles et applications métiers."
+                }
             ]
         }
     ],
     "skills": {
-    	"langages": [
+        "langages": [
             {
                 "name": "HTML/CSS",
                 "data": "90",
-                "options": { 
+                "options": {
                     "width": 50,
-                    "height": 50, 
+                    "height": 50,
                     "readOnly" :true,
                     "fgColor": "#e74c3c",
                     "thickness": ".2",
@@ -112,23 +163,23 @@
                 }
             },
             {
-        		"name": "PHP/MySQL",
-        		"data": "80",
-        		"options": { 
-        			"width": 50,
-        			"height": 50, 
-        			"readOnly" :true,
-        			"fgColor": "#9b59b6",
-        			"thickness": ".2",
-        			"displayInput": false
-        		}
-        	},
+                "name": "PHP/MySQL",
+                "data": "80",
+                "options": {
+                    "width": 50,
+                    "height": 50,
+                    "readOnly" :true,
+                    "fgColor": "#9b59b6",
+                    "thickness": ".2",
+                    "displayInput": false
+                }
+            },
             {
                 "name": "JS",
                 "data": "78",
-                "options": { 
+                "options": {
                     "width": 50,
-                    "height": 50, 
+                    "height": 50,
                     "readOnly" :true,
                     "fgColor": "#1abc9c",
                     "thickness": ".2",
@@ -138,9 +189,9 @@
             {
                 "name": "Python",
                 "data": "85",
-                "options": { 
+                "options": {
                     "width": 50,
-                    "height": 50, 
+                    "height": 50,
                     "readOnly" :true,
                     "fgColor": "#FFD804",
                     "thickness": ".2",
@@ -150,9 +201,9 @@
             {
                 "name": "Ruby",
                 "data": "65",
-                "options": { 
+                "options": {
                     "width": 50,
-                    "height": 50, 
+                    "height": 50,
                     "readOnly" :true,
                     "fgColor": "#B9305B",
                     "thickness": ".2",
@@ -162,9 +213,9 @@
             {
                 "name": "C",
                 "data": "42",
-                "options": { 
+                "options": {
                     "width": 50,
-                    "height": 50, 
+                    "height": 50,
                     "readOnly" :true,
                     "fgColor": "#e6c99b",
                     "thickness": ".2",
@@ -174,9 +225,9 @@
             {
                 "name": "C++",
                 "data": "45",
-                "options": { 
+                "options": {
                     "width": 50,
-                    "height": 50, 
+                    "height": 50,
                     "readOnly" :true,
                     "fgColor": "#BFE69B",
                     "thickness": ".2",
@@ -186,9 +237,9 @@
             {
                 "name": "C#",
                 "data": "52",
-                "options": { 
+                "options": {
                     "width": 50,
-                    "height": 50, 
+                    "height": 50,
                     "readOnly" :true,
                     "fgColor": "#e67e22",
                     "thickness": ".2",
@@ -200,9 +251,9 @@
             {
                 "name": "Django",
                 "data": "83",
-                "options": { 
+                "options": {
                     "width": 50,
-                    "height": 50, 
+                    "height": 50,
                     "readOnly" :true,
                     "fgColor": "#0a7b83",
                     "thickness": ".2",
@@ -212,9 +263,9 @@
             {
                 "name": "Flask",
                 "data": "79",
-                "options": { 
+                "options": {
                     "width": 50,
-                    "height": 50, 
+                    "height": 50,
                     "readOnly" :true,
                     "fgColor": "#2aa876",
                     "thickness": ".2",
@@ -224,9 +275,9 @@
             {
                 "name": "CakePHP",
                 "data": "75",
-                "options": { 
+                "options": {
                     "width": 50,
-                    "height": 50, 
+                    "height": 50,
                     "readOnly" :true,
                     "fgColor": "#ffd265",
                     "thickness": ".2",
@@ -236,9 +287,9 @@
             {
                 "name": "Ruby On Rails",
                 "data": "56",
-                "options": { 
+                "options": {
                     "width": 50,
-                    "height": 50, 
+                    "height": 50,
                     "readOnly" :true,
                     "fgColor": "#f19c65",
                     "thickness": ".2",
@@ -248,9 +299,9 @@
             {
                 "name": "LESS / SASS ",
                 "data": "85",
-                "options": { 
+                "options": {
                     "width": 50,
-                    "height": 50, 
+                    "height": 50,
                     "readOnly" :true,
                     "fgColor": "#ce4d45",
                     "thickness": ".2",
@@ -260,9 +311,9 @@
             {
                 "name": ".NET",
                 "data": "45",
-                "options": { 
+                "options": {
                     "width": 50,
-                    "height": 50, 
+                    "height": 50,
                     "readOnly" :true,
                     "fgColor": "#e6c093",
                     "thickness": ".2",
@@ -274,9 +325,9 @@
             {
                 "name": "Beyonce",
                 "data": "98",
-                "options": { 
+                "options": {
                     "width": 50,
-                    "height": 50, 
+                    "height": 50,
                     "readOnly" :true,
                     "fgColor": "#ff97b8",
                     "thickness": ".2",
@@ -286,9 +337,9 @@
             {
                 "name": "Humour",
                 "data": "97",
-                "options": { 
+                "options": {
                     "width": 50,
-                    "height": 50, 
+                    "height": 50,
                     "readOnly" :true,
                     "fgColor": "#ed002f",
                     "thickness": ".2",
@@ -298,9 +349,9 @@
             {
                 "name": "Sneakers addict",
                 "data": "92",
-                "options": { 
+                "options": {
                     "width": 50,
-                    "height": 50, 
+                    "height": 50,
                     "readOnly" :true,
                     "fgColor": "#4790c1",
                     "thickness": ".2",
@@ -310,9 +361,9 @@
             {
                 "name": "Gameuse",
                 "data": "86",
-                "options": { 
+                "options": {
                     "width": 50,
-                    "height": 50, 
+                    "height": 50,
                     "readOnly" :true,
                     "fgColor": "#FFD804",
                     "thickness": ".2",

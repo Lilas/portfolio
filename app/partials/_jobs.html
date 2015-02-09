@@ -1,17 +1,20 @@
 <div class="job" ng-repeat="job in jobsData">
-	<div class="date">
-		<div class="datefrom">{{job.dateStart}}</div>
-		<div class="datetill{{job.class}}">{{job.dateEnd}}</div>
-		<div class="trianglewrap"><div class="datetriangle{{job.class}}"></div></div>
-	</div>
-	<div class="jobtitle">
-		<h3>{{job.name}}</h3>
-		<h4><strong>{{job.subname}}</strong></h4> 
-		<div class="jobdescription">
-			<p ng-repeat="mission in job.missions">
-				- {{mission}}
-			</p>
-		</div> 
-	</div>
-	<div class="clear dividewhite3"></div>
+    <div class="date">
+        <div class="datefrom">{{job.dateStart}}</div>
+        <div class="datetill{{job.class}}">{{job.dateEnd}}</div>
+        <div class="trianglewrap"><div class="datetriangle{{job.class}}"></div></div>
+    </div>
+    <div class="jobtitle">
+        <h3>{{job.name}}</h3>
+        <h4><strong>{{job.subname}}</strong></h4>
+        <div class="jobdescription">
+            <p ng-repeat="mission in job.missions">
+                - {{mission.description}}
+                <span class="jobmore" ng-show="mission.more" ng-repeat="more in mission.more" >
+                    <br/>* {{more}}
+                </span>
+            </p>
+        </div>
+    </div>
+    <div class="clear dividewhite3"></div>
 </div>
